@@ -1,7 +1,41 @@
-.box{
-    border: 1px solid black;
-    height: 200px;
-    width: 150px;
-    background-image: linear-gradient(red,blue);
-    background-image: linear-gradient(to right, red,blue);
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.container{
+    margin-left: 25%;
+    margin-right: 25%;
+     margin-top: 150px;
+     position: relative;    
 }
+.text-1{
+    top: 8px;
+    left: 16px;
+    position:absolute;
+}
+.text-2{
+    top: 8px;
+    right: 16px;
+    position:absolute;
+}
+.text-3{
+    bottom: 40px;
+    left: 16px;
+    position: absolute;
+}
+.text-4{
+    bottom: 40px;
+    right: 16px;
+    position: absolute;
+}
+.text-5{
+    position: absolute;
+    text-align: center;
+    top:52%;
+    width: 100%;
+   
+
+}
+
